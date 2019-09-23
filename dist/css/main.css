@@ -319,6 +319,7 @@ html {
 body {
   color: #171F3F;
   background: #ffffff;
-  font-family: 'Poppins', sans-serif; }
+  font-family: 'Poppins', sans-serif;
+  border: 16px solid #171F3F; }
 
 /*# sourceMappingURL=main.css.map */
