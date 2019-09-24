@@ -310,7 +310,7 @@ template {
 
 .hero {
   max-width: 1184px;
-  padding: 112px 0 200px;
+  padding: 112px 0 184px;
   margin: 0 auto; }
   .hero__description {
     color: #52606D;
@@ -342,10 +342,74 @@ template {
     max-width: 780px;
     margin: 2rem 0 1rem; }
 
+.skills {
+  max-width: 1184px;
+  margin: 0 auto; }
+  .skills__title {
+    font-size: 2.25rem;
+    margin: 0;
+    font-style: normal;
+    font-weight: 600;
+    padding: 1rem 0;
+    border-bottom: 2px solid #E5E8EC; }
+
+.skills-list {
+  display: -ms-grid;
+  display: grid;
+  padding: 8rem 0 0;
+  -ms-grid-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr; }
+  .skills-list__item {
+    color: #52606D;
+    padding: 11px 0 11px 30px;
+    position: relative; }
+    .skills-list__item::before {
+      position: absolute;
+      top: 10px;
+      left: 0;
+      content: '';
+      display: block;
+      width: 18px;
+      height: 18px;
+      background: url("../assets/img/check-green.svg"); }
+      .skills-list--violet .skills-list__item::before {
+        background: url("../assets/img/check-violet.svg"); }
+      .skills-list--blue .skills-list__item::before {
+        background: url("../assets/img/check-blue.svg"); }
+  .skills-list__list {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    list-style-type: none;
+    padding: 0;
+    margin-top: calc(1.5rem + 4px);
+    -webkit-column-gap: 1.5rem;
+       -moz-column-gap: 1.5rem;
+            column-gap: 1.5rem; }
+  .skills-list__title {
+    font-weight: 600;
+    font-size: 2rem;
+    line-height: 2.75rem;
+    margin: 0; }
+    .skills-list__title::before {
+      content: '';
+      width: 80px;
+      height: 4px;
+      display: block;
+      background: #06C847;
+      border-radius: 8px;
+      margin-bottom: 1.5rem; }
+      .skills-list--violet .skills-list__title::before {
+        background: #653CAD; }
+      .skills-list--blue .skills-list__title::before {
+        background: #2511CC; }
+
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
-  font-size: 16px; }
+  font-size: 16px;
+  scroll-behavior: smooth; }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
