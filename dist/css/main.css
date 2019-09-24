@@ -350,10 +350,11 @@ template {
     font-size: 1.25rem;
     line-height: 2.25rem;
     color: #52606D;
-    max-width: 580px; }
+    max-width: 580px;
+    margin: 0 0 4rem; }
   .projects__title {
     font-size: 2.25rem;
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     font-style: normal;
     font-weight: 600;
     padding: 1rem 0;
