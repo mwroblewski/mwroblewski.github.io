@@ -332,8 +332,8 @@ template {
     margin: 0 auto 1rem;
     font-style: normal;
     font-weight: 600;
-    padding: 8rem 0 0;
-    max-width: 1184px; }
+    padding: 8rem 16px 0;
+    max-width: 1216px; }
     .contact__title::before {
       content: '';
       width: 80px;
@@ -356,8 +356,8 @@ template {
     text-decoration: none; }
 
 .hero {
-  max-width: 1184px;
-  padding: 112px 0 184px;
+  max-width: 1216px;
+  padding: 112px 16px 184px;
   margin: 0 auto; }
   .hero__description {
     color: #52606D;
@@ -404,8 +404,8 @@ template {
     margin: 0 auto 1rem;
     font-style: normal;
     font-weight: 600;
-    padding: 1rem 0;
-    max-width: 1184px; }
+    padding: 1rem 16px;
+    max-width: 1216px; }
 
 .projects-list {
   display: -ms-grid;
@@ -479,7 +479,8 @@ template {
     margin: 1rem 0 .5rem; }
 
 .skills {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto 8rem; }
   .skills__title {
     font-size: 2.25rem;
@@ -546,6 +547,9 @@ html {
           box-sizing: border-box;
   font-size: 16px;
   scroll-behavior: smooth; }
+  @media (max-width: 767px) {
+    html {
+      font-size: 12px; } }
 
 *, *:before, *:after {
   -webkit-box-sizing: inherit;
@@ -560,7 +564,8 @@ body {
   -moz-osx-font-smoothing: grayscale; }
 
 .container {
-  max-width: 1184px;
+  max-width: 1216px;
+  padding: 0 16px;
   margin: 0 auto; }
 
 /*# sourceMappingURL=main.css.map */
