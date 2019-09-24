@@ -455,7 +455,7 @@ template {
       position: relative; }
       .project__link + .project__link::after {
         content: '';
-        height: 32px;
+        height: 2rem;
         width: 2px;
         background: #CBD2D9;
         display: block;
